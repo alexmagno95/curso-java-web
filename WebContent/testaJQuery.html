@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Testa JavaScript</title>
+</head>
+	<script type="text/javascript">
+	
+	var msg = document.getElementById("msg");
+	
+		function meuAlerta(){
+			var msg = document.getElementById("msg");
+			document.getElementById("msgResposta").textContent=msg.value;
+		}
+		
+		alert("Meu primeiro JS");
+		
+	</script>
+	
+	<body>
+
+		<input id="msg" value="" />
+		<button>Clique aqui</button>
+		<div id="msgResposta"></div>
+		
+		<script src="js/jquery-2.1.0.min.js" type="text/javascript"></script>
+		<script src="js/exemplo.js" type="text/javascript"></script>
+		
+	</body>
+		
+</html>
